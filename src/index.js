@@ -39,7 +39,7 @@ app.use("/api/v1/cart", cartRoutes);
 app.use("/api/v1/order", orderRoutes);
 app.use("/api/v1/admin", adminRoutes);
 
-// Health check route
+
 app.get("/api/v1/health", (req, res) => {
   res.status(200).json({
     message: "Garden Backend API is running!",
